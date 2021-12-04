@@ -1,0 +1,121 @@
+
+.container
+{
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    display: block;
+}
+
+.container .cover
+{
+    height: 250px;
+    width: 100%;
+    background-image: url("../images/water.jpg");
+ 
+}
+
+.container .mainprofile
+{
+    height: 500px;
+    width: auto;
+    display: flex;
+    
+   
+}
+
+.container .mainprofile .profilepic
+{
+    border: 1px solid black;
+    flex: 1;
+   position: relative;
+   height: 250px;
+   border: 5px solid white;
+   border-radius: 50%;
+   margin-top: -125px;
+   margin-left: 50px;
+   overflow: hidden;
+   
+   
+}
+.container .mainprofile .profilepic img
+{
+  width: 250px;
+  height: auto;
+}
+
+.container .mainprofile .edit
+{
+    flex: 3;
+    height: auto;
+    font-weight: 100;
+}
+
+.container .mainprofile .editform
+{
+    flex: 3;
+    height: auto;
+    font-weight: 100;
+}
+
+.container .mainprofile .edit h1
+{
+    font-weight: 100;
+}
+
+.container .mainprofile .edit button
+{
+    padding: 10px 20px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: rgb(82, 82, 253);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 60%;
+    margin-top: 10px;
+}
+
+.editform
+{
+    display: none;
+    width: 100%;
+}
+
+.editform1
+{
+	display: none;
+	width: 100%;
+}
+
+.editform button{
+    padding: 10px 20px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: rgb(82, 82, 253);
+    color: white;
+    border: none;
+    border-radius: 10px;
+  
+    margin: 10px;
+}
+
+.editform .eform
+{
+  margin: 20px;
+  font-size: 20px;
+}
+
+
+.editform .eform input
+{
+    padding: 10px 20px;
+    margin: 10px 20px;
+   
+}
